@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+
+
+<h2>Create</h2>
+<div>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>Student Name :</td>
+                <td><input type="text" id="NameTextBox" name="NameTextBox"  value=""  /></td>
+            </tr>
+            <tr>
+                <td>Student E-Mail</td>
+                <td><input type="text" id="EmailTextBox" name="EmailTextBox" value="" /></td>
+            </tr>
+            <tr>
+                <td>Student PhoneNo.</td>
+                <td><input type="text" id="PhoneNumberTextBox" name="PhoneNumberTextBox" value="" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="gender" value="male" onclick="myFunction" > Male<br>
+                    <input type="radio" name="gender" value="female" > Female<br>
+                </td>
+            </tr>
+            <tr>
+                <td id="1">
+                    MaleDropDown1
+                </td>
+                <td>
+                    <select >
+                        <option value="1">Select the male informatiion 01</option>
+                        <option value="2">Tall</option>
+                        <option value="2">Sort</option>
+                    </select>
+           
+                    <select>
+                        <option value="1">Select the male informatiion 02</option>
+                        <option value="2">Good</option>
+                        <option value="2">Bad</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    FemaleDropDown1
+                </td>
+                <td>
+                    <select>
+                        <option value="1">Select the male informatiion 01</option>
+                        <option value="2">Tall</option>
+                        <option value="2">Sort</option>
+                    </select>
+             
+                    <select>
+                        <option value="1">Select the male informatiion 02</option>
+                        <option value="2">Good</option>
+                        <option value="2">Bad</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Student Address
+                </td>
+                <td>
+                    <textarea type="text" id="AddressTextBox" name="AddressTextBox"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Save"/>
+                    <input type="submit" value="Cancel"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<script src="~/Scripts/Student.js"></script>
